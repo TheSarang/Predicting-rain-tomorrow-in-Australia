@@ -11,23 +11,23 @@ This dataset contains daily weather observations from numerous Australian weathe
 There are 23 features:
 
 **Categorical Features**
-- Date:
-- Location:
+- Date: The date of observation
+- Location: The common name of the location of the weather station
 - RainToday:
 - RainTomorrow:
-- WindDir3pm:
-- WindDir9am:
-- WindGustDir:
+- WindDir3pm: Direction of the wind at 3am
+- WindDir9am: Direction of the wind at 9am
+- WindGustDir: The direction of the strongest wind gust in the 24 hours to midnight
 
 **Numerical Features**
-- MinTemp:
-- MaxTemp:
-- Rainfall:
-- Evaporation:
-- Sunshine:
-- WindGustSpeed:
-- WindSpeed9am:
-- WindSpeed3pm:
+- MinTemp: The minimum temperature in degrees celsius
+- MaxTemp: The maximum temperature in degrees celsius
+- Rainfall: The amount of rainfall recorded for the day in mm
+- Evaporation: The so-called Class A pan evaporation (mm) in the 24 hours to 9am
+- Sunshine: The number of hours of bright sunshine in the day.
+- WindGustSpeed: The speed (km/h) of the strongest wind gust in the 24 hours to midnight
+- WindSpeed9am: Wind speed (km/hr) averaged over 10 minutes prior to 9am
+- WindSpeed3pm: Wind speed (km/hr) averaged over 10 minutes prior to 3am
 - Humidity9am:
 - Humidity3pm:
 - Pressure9am:
