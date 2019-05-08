@@ -1,4 +1,4 @@
-# Predicting-rain-tomorrow-in-Australia
+# Predicting rain in Australia
 
 ## Table of Contents:
 + [Data Set](#Data_Set) </br>
