@@ -13,9 +13,8 @@ There are 23 features:
 **Categorical Features**
 - Date: The date of observation
 - Location: The common name of the location of the weather station
-- RainToday:
-- RainTomorrow:
-- WindDir3pm: Direction of the wind at 3am
+- RainToday: Boolean: 1 if precipitation (mm) in the 24 hours to 9am exceeds 1mm, otherwise 0
+- WindDir3pm: Direction of the wind at 3pm
 - WindDir9am: Direction of the wind at 9am
 - WindGustDir: The direction of the strongest wind gust in the 24 hours to midnight
 
@@ -28,20 +27,21 @@ There are 23 features:
 - WindGustSpeed: The speed (km/h) of the strongest wind gust in the 24 hours to midnight
 - WindSpeed9am: Wind speed (km/hr) averaged over 10 minutes prior to 9am
 - WindSpeed3pm: Wind speed (km/hr) averaged over 10 minutes prior to 3am
-- Humidity9am:
-- Humidity3pm:
-- Pressure9am:
-- Pressure3pm:
-- Cloud9am:
-- Cloud3pm:
-- Temp9am:
-- Temp3pm:
+- Humidity9am: Humidity (percent) at 9am
+- Humidity3pm: Humidity (percent) at 3pm
+- Pressure9am: Atmospheric pressure (hpa) reduced to mean sea level at 9am
+- Pressure3pm: Atmospheric pressure (hpa) reduced to mean sea level at 3pm
+- Cloud9am: Fraction of sky obscured by cloud at 9am. This is measured in "oktas", which are a unit of eigths. It records how many eigths of the sky are obscured by cloud. A 0 measure indicates completely clear sky whilst an 8 indicates that it is completely overcast.
+- Cloud3pm: Fraction of sky obscured by cloud (in "oktas": eighths) at 3pm. See Cload9am for a description of the values
+- Temp9am: Temperature (degrees C) at 9am
+- Temp3pm: Temperature (degrees C) at 3pm
 
 **Target Variable**
-- default.payment.next.month: Default payment (1=yes, 0=no)
+- RainTomorrow: The target variable. Did it rain tomorrow? (1=yes, 0=no)
 ***
 
 ## <a name="Results"></a> Result
 
-On test set: Recall = 0.73 and ROC = 0.78.
-
+On test set: 
+- Random Forest Classifier: Accuracy = 0.85 and ROC = 0.82.
+- Ada Boost Classifier: Accuracy = 0.84 and ROC = 0.79.
