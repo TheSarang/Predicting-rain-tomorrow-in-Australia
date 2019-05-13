@@ -8,7 +8,7 @@
 
 This dataset contains daily weather observations from numerous Australian weather stations. Observations were drawn from numerous weather stations. The daily observations are available from http://www.bom.gov.au/climate/data. Copyright Commonwealth of Australia 2010, Bureau of Meteorology.
 
-There are 23 features:
+There are total 23 features:
 
 **Categorical Features**
 - Date: The date of observation
