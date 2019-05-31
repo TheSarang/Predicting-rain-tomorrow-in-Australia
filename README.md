@@ -31,7 +31,7 @@ There are total 23 features:
 - Humidity3pm: Humidity (percent) at 3pm
 - Pressure9am: Atmospheric pressure (hpa) reduced to mean sea level at 9am
 - Pressure3pm: Atmospheric pressure (hpa) reduced to mean sea level at 3pm
-- Cloud9am: Fraction of sky obscured by cloud at 9am. This is measured in "oktas", which are a unit of eigths. It records how many eigths of the sky are obscured by cloud. A 0 measure indicates completely clear sky whilst an 8 indicates that it is completely overcast.
+- Cloud9am: Fraction of sky obscured by cloud at 9am. This is measured in "oktas", which are a unit of eigths. It records how many eigths of the sky are obscured by cloud. A 0 measure indicates completely clear sky whilst an 8 indicates that it is completely overcast
 - Cloud3pm: Fraction of sky obscured by cloud (in "oktas": eighths) at 3pm. See Cload9am for a description of the values
 - Temp9am: Temperature (degrees C) at 9am
 - Temp3pm: Temperature (degrees C) at 3pm
