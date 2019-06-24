@@ -43,5 +43,6 @@ There are total 23 features:
 ## <a name="Results"></a> Result
 
 On test set: 
+I have used Grid Search View to calculate best combinations of parameters.
 - Random Forest Classifier: Accuracy = 0.85 and ROC = 0.82
-- Ada Boost Classifier: Accuracy = 0.84 and ROC = 0.79
+- Logistic REgression: Accuracy = 0.84 and ROC = 0.79
