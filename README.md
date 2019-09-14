@@ -46,3 +46,4 @@ On test set:
 I have used Grid Search View with 10 folds to calculate best combinations of parameters.
 - Random Forest Classifier: Accuracy = 0.85 and ROC = 0.82
 - Logistic Regression: Accuracy = 0.84 and ROC = 0.79
+
