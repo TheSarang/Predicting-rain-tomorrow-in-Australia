@@ -21,7 +21,7 @@ There are total 23 features:
 **Numerical Features**
 - MinTemp: The minimum temperature in degrees celsius
 - MaxTemp: The maximum temperature in degrees celsius
-- Rainfall: The amount of rainfall recorded for the day in mm
+- Rainfall: The amount of rainfall recorded for the day in mm 
 - Evaporation: The so-called Class A pan evaporation (mm) in the 24 hours to 9am
 - Sunshine: The number of hours of bright sunshine in the day.
 - WindGustSpeed: The speed (km/h) of the strongest wind gust in the 24 hours to midnight
