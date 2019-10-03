@@ -37,7 +37,7 @@ There are total 23 features:
 - Temp3pm: Temperature (degrees C) at 3pm
 
 **Target Variable**
-- RainTomorrow: The target variable. Did it rain tomorrow? (1 = yes, 0 = no)
+- RainTomorrow: The target variable. Did it rain tomorrow? (1 = yes, 0 = no )
 ***
 
 ## <a name="Results"></a> Result
