@@ -11,7 +11,7 @@ This dataset contains daily weather observations from numerous Australian weathe
 There are total 23 features:
 
 **Categorical Features**
-- Date: The date of observation
+- Date: The date of observation 
 - Location: The common name of the location of the weather station
 - RainToday: Boolean: 1 if precipitation (mm) in the 24 hours to 9am exceeds 1mm, otherwise 0
 - WindDir3pm: Direction of the wind at 3pm
