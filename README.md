@@ -15,7 +15,7 @@ There are total 23 features:
 - Location: The common name of the location of the weather station
 - RainToday: Boolean: 1 if precipitation (mm) in the 24 hours to 9am exceeds 1mm, otherwise 0
 - WindDir3pm: Direction of the wind at 3pm
-- WindDir9am: Direction of the wind at 9am
+- WindDir9am: Direction of the wind at 9am 
 - WindGustDir: The direction of the strongest wind gust in the 24 hours to midnight
 
 **Numerical Features**
